@@ -23,7 +23,9 @@ public class Main {
 				}
 			}
 		}
-		System.out.println(0);
+		if (numbers_of_divisor < K) {
+			System.out.println(0);
+		}
 		
 	}
 }
